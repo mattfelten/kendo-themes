@@ -1233,6 +1233,13 @@ $switch-off-handle-hovered-border: null !default;
 $switch-off-handle-hovered-gradient: null !default;
 
 
+// Scheduler
+$scheduler-event-bg: $primary !default;
+$scheduler-event-text: $primary-contrast !default;
+
+$scheduler-event-selected-box-shadow: $box-shadow-depth-3;
+
+
 // Config maps
 $typography-config: () !default;
 // sass-lint:disable indentation

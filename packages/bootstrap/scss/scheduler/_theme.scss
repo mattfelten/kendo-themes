@@ -93,6 +93,18 @@
     .k-event {
         @include appearance( selected-node );
         @include border-radius( $border-radius );
+
+        .k-event-template {
+            padding: $padding-y-sm $padding-x-sm;
+        }
+
+        .k-event-actions {
+            right: $padding-x-sm;
+        }
+
+        &.k-state-selected {
+            box-shadow: $scheduler-event-selected-box-shadow;
+        }
     }
     .k-event-inverse {
         color: $panel-bg;

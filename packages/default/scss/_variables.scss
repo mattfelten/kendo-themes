@@ -1148,6 +1148,18 @@ $switch-off-handle-hovered-border: $switch-on-handle-hovered-border !default;
 $switch-off-handle-hovered-gradient: null !default;
 
 
+// Scheduler
+$modal-header-border-color: #cccccc;
+$modal-inner-padding: 1em;
+
+$scheduler-event-border: $accent !default;
+$scheduler-event-bg: $accent !default;
+$scheduler-event-text: #ffffff;
+
+$scheduler-event-selected-bg: $accent !default;
+$scheduler-event-selected-text: contrast-wcag($accent) !default;
+
+
 // Config maps
 $typography-config: () !default;
 // sass-lint:disable indentation
